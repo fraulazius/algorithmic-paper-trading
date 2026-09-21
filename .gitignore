@@ -1,0 +1,21 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+
+# Runtime output
+alpaca_paper_trades.csv
+alpaca_paper_parameters.csv
+alpaca_paper_runs.csv
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
